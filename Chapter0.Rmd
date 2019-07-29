@@ -1,0 +1,305 @@
+---
+title: "Systems, Systems Science, Systems Thinking"
+author: "Dieudonne Ouedraogo"
+date: "7/29/2019"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+#Abstract
+
+The world is highly connected but also complicated to analyze. While we enjoy connections, making sense of it, and predicting the future is becoming very unreliable. Even though we are developing powerful machines and collecting more data, the predictions and forecastings are missing the target. The next decades will not be reliable without a set of tools and new approaches to solve complex problems.
+Systems thinking is widely believed to be critical in handling and solving the complexities the world could face. Machine learning is a set of analytical tools and techniques used lately to tackle many problems. However, in most cases, it uses data collected at a part of the system to understand the whole process rather than seeking to capture the entire system involved in the process. We are living and operating in a highly interconnected world, where systems interact, that leads to complex systems behaviors untractable by machine learning models.  The traditional isolated data analysis had shown its limits by missing sales forecasting and political predictions; 
+The main contribution of this dissertation is to raise awareness in the field by proposing methodologies that incorporate holistic thinking in machine learning systems. Rather than studying parts independently without relationships,  interconnections and interdependencies, we propose tackling the analysis from a holistic view which will mitigate many issues that the system encountered. This approach provides a full picture of the complexity of problems and support better decision making and help develop more reliable models. 
+This dissertation proposes the usage of systems thinking to tackle and mitigate issues arisen in machine learning systems.
+
+
+#I -  System  
+
+##a-Concept and definition of a system 
+
+According to dictionary.com, a system could take three ideas:
+
+###1- A system is a set of things working together as parts of a mechanism or an interconnecting network. 
+
+Examples:
+-A set of organs in the body with a typical structure or function." the digestive system." the human or animal body as a whole.
+"You need to get the cholesterol out of your system."
+
+-A group of related hardware units or programs or both, primarily when dedicated to a single application in computing.
+
+-A group of celestial objects connected by their attractive mutual forces, especially moving in orbits about a center.
+"the system of bright stars known as the Gould Belt." Short for crystal system.
+
+###2- A system could be a set of principles or procedures according to which something is done an organized scheme or method.
+
+"a multiparty system of government."
+
+###3- A set of rules used in measurement or classification.
+"the metric system." 
+"there was no system at all in the company."
+The prevailing political or social order, especially when regarded as oppressive and stubborn. "do not try bucking the system."
+
+##b- The holistic  view
+A system is a whole with two or more parts, which each can affect the proprieties or the behavior of the whole. 
+
+The property of the whole is something that each part does not have.
+An automobile is a system with primary goal transportation of individuals.
+Just the seats cannot transport the people.
+
+The behavior of the whole system cannot be divided into independents parts systems are essential."
+
+There two types of systems: living systems and artificial systems.
+
+A living system creates itself if self-organize; it is continuously recreating itself.
+
+The human body is a living system. The most extended existing cell in our body is seven years old. Every cell is replaced within  seven years(auto poetic).
+
+Artificial systems usually require outside inputs;
+
+A computer is a machine that takes data to transform it into knowledge or output 
+
+#II-Systems science
+
+We defined Systems science as the rigorous use of science and a set of techniques to study systems.
+Toward this work, we will refer to systems science as the application of systems thinking. They terms systems science and systems thinking will be pointing to the same entity.
+
+
+##III-Systems Thinking
+
+##A-context
+
+In the age of advanced technologies, nations increasingly become interconnected, and our social and technological systems are developing into more complex states. System after system is increasingly interdependent; the GPS, the internet, the trades all have components that are nested within each other, leading to feedback loops.
+Little change in one setting could trigger even chaos around other parts. Change in policy in one nation significantly affects other nations. Business, trades, political, technological systems, feed each other and lead to extremely complex unpredictable processes. Systems thinking can help the machine learning system reveal the deep roots of these complex behaviors in order to better predictions and more accurate modeling.
+With the exponential growth of systems in our world comes a growing need for systems thinkers to tackle these complex problems. This need stretches far beyond the science and engineering disciplines, encompassing, in truth, every aspect of life. Systems thinking is required thinkers to prepare for an increasingly complex — a new globalized system of systems future. Machine learning, along with the traditional approach, cannot provide reliable answers to the future without taking into account the interrelationship between systems involved in the process. We could argue that for more reliable forecasting and predictions, an integration of "systems thinking" component is required in this complex world.
+
+Barry Richmond, a well-known leader in the field of systems thinking and systems dynamics, is credited with
+coining the term "systems thinking" in 1987. He wrote (1991):
+
+As interdependency increases, we must learn to learn in a new way. It is not good enough to get smarter and
+smarter about our particular "piece of the rock." We must have a common language and framework for sharing our specialized knowledge, expertise, and experience with "local experts" from other parts of the web. We need systems Esperanto. Only then will we be equipped to act responsibly. 
+In short, interdependency demands systems thinking. Without it, the evolutionary trajectory that we have been following since we emerged from the primordial soup will become increasingly less viable.
+
+Many researchers and systems science experts agree with Richmond's views on the great importance of systems thinking in dealing with the coming century's complexity(Meadows, 2008; Plate, 2010; Senge, 1990; Sterman, 2003). 
+
+Systems Thinking is extremely important for our future.
+
+##B -definition
+
+Systems thinking since its origin by Barry Richmond has been portrayed and re-portrayed in several forms, it is important to explore some of the definitions proposed in the literature:
+
+According to the Merriam-Webster dictionary, a system is defined as a regularly interacting or interdependent group of items forming a unified whole (Merriam-Webster's online dictionary). 
+
+The main characteristic of a system is that it is more than a collection of its parts(Meadows, 2008). We can perceive Systems thinking as a  system of thinking about systems. As opposed to systems thinking is the reductionists views that tend to study systems as analysis of their parts. Reductionist models are unable to depict fully or to allow us to deeply understand the new complex and dynamic scenarios (Dominici, 2012).
+Systems thinking a set of approaches to deal with systems is itself a system. Like most systems, systems thinking consists of three sections: characteristics, interconnections or interdependencies, and feedbacks, purpose (Meadows 2008). However, the least visible section of the system, its purpose, is often the most crucial determinant of the system's behavior (Meadows, 2008). Though not all systems have an obvious goal or objective, systems thinking does. In order to convey its definition, especially to those unfamiliar with the concept, it is critically important to communicate this goal.
+
+###1- Barry Richmond's view
+
+Barry Richmond coined the term systems thinking. He defines systems thinking as the art and science of making reliable inferences about behavior by developing an increasingly deep understanding of the underlying structure(Richmond, 1994). He emphasizes that people embracing Systems Thinking should position themselves such that they can see both the forest and the trees; One eye on each (Richmond, 1994).
+However, this definition does not address the interconnections.
+
+###2-Peter Senge's view
+
+Peter Senge describes systems thinking as a discipline for seeing wholes and a framework for seeing interrelationships rather than things, for seeing patterns of change rather than static snapshots (Senge, 1990). 
+For Senge, success in handling the complexity required working intuitively in a domain that the educational system does no cons; Underscoring an intuitive property of systems thinking (Benson, Borysenko, Comfort, Dossey, & Siegel, 1985).
+Senge's definition, although exciting, is also vague. The definition provides the critical elements of systems thinking, but it does not provide a purpose for systems thinking. 
+
+###3-Sweeney and Sterman's view
+
+Researchers and authors Linda Sweeney and John Sterman found that that much of the art of systems thinking involves the ability to represent and assess dynamic complexity. The complexity represents the behavior that arises from the interaction of the system's agents over time, both textually and graphically (Sweeney & Sterman, 2000). 
+The proposed a set of skills defining systems thinking:
+
+1. Understanding how the behavior of a system arises from the interaction of its agents over time (i.e., dynamic complexity);
+
+2. Discovering and representing feedback processes (both positive and negative) hypothesized to underlie observed patterns of system behavior;
+
+3. Identifying stock and flow relationships;
+
+4. Recognizing delays and understand their impact;
+
+5. Identifying nonlinearities;
+
+6. Recognizing and challenge the boundaries of mental (and formal) models.
+Although this definition is handy as it lists actual skills agreed upon by many advocates of systems thinking(Sweeney & Sterman, 2000), it misses the purpose part of the definition.
+
+###4-Hopper and Stave's definition
+
+Megan Hopper and Krystyna Stave incorporated Sweeney and Sterman's work, and the work of many others, into
+their study of systems, thinking. Reinforcing the need for a widely accepted definition, they asserted that the term systems thinking is used in a variety of sometimes conflicting ways (Stave & Hopper, 2007). Some system dynamicists see it as the foundation of system dynamics and other systems analysis approaches. Others see systems thinking as a subset of system dynamics (Stave & Hopper, 2007). 
+Hopper and Stave performed an extensive review of systems dynamics literature, drawing up the following list of Systems Thinking
+Characteristics based on their findings(Stave & Hopper, 2007):
+
+1. Recognizing Interconnections
+
+2. Identifying Feedback
+
+3. Understanding Dynamic Behavior
+
+4. Differentiating types of flows and variables
+
+5. Using Conceptual Models
+
+6. Creating Simulation Models
+
+7. Testing Policies
+
+Hopper and Stave draw upon Richmond, Senge, Sweeney, and Sterman in their definition, along with many others. However, their definition does not contain interconnections or a statement of purpose for systems thinking, and thus fails the System Test. Their definition is simply a set of characteristics and not a system
+
+###5-Kopainsky, Alessi, and Davidsen's view
+
+The authors explained that systems thinking should incorporate feedback loops, long term appreciation, non-linear relationship between variables, and collaborative planning across areas of an organization(Kapainsky, Alessi, and Davidsen,2011).
+
+###6-Squires, Wade, Dominick, and Gelosh's view
+
+Those researchers perceive Systems Thinking as the ability to think abstractly in order to: incorporate multiple perspectives;
+ work within a space where the boundary or scope of problem or system may be "fuzzy"; understand diverse operational contexts of the system;
+ identify inter- and intra-relationships and dependencies;
+ understand complex system behavior; and most important of all,
+ reliably predict the impact of change on the system.
+
+###7-Arnold and Wade's view
+
+For Ross D. Arnold and Jon P. Wade
+Systems thinking is a set of synergistic analytic skills used to improve the capability of identifying and understanding systems, predicting their behaviors, and devising modifications to them in order to produce desired effects. These skills work together as a system.
+ Systems are groups or combinations of interdependent elements forming collective entities.
+ 
+ Synergistic: Characteristic of synergy, which is the interaction of elements in a way that, when combined, produce a total effect that is greater than the sum of the individual elements.
+ 
+ Analytical skills: Skills that provide the ability to visualize, articulate, and solve both complex and uncomplicated problems and concepts and make decisions that are sensible and based on available information. Such skills include a demonstration of the ability to apply logical thinking to gathering and analyzing information, designing and testing solutions to problems, and formulating plans.
+ 
+ Identify: To recognize as being a particular thing.
+ 
+ Understand: To be thoroughly familiar with; apprehend the character, nature, or subtleties.
+ 
+ Predict: To foretell as a deducible consequence.
+ Devise modifications: To contrive, plan, or elaborate changes or adjustments.
+
+
+##C-Building the structure of System thinking 
+
+Systems thinking can add value to a process and organization or system by following a defined structure that reduces complexities by modeling systems conceptually, understanding non-linear relationships.
+
+###1. Recognizing Interconnections:
+
+The core of systems thinking is about grasping the importance of interconnections or interdependencies. It is the ability to identify critical connections between parts of a system. 
+
+###2. Identifying and Understanding Feedback:
+
+Some of the interconnections combine to form cause-effect feedback loops(Hopper & Stave, 2008). 
+Systems thinking requires identifying those feedback loops and understanding how they impact system behavior (Plate & Monroe, 2014).
+
+###3. Understanding System Structure:
+
+System structure consists of elements and interconnections between these elements. Systems thinking requires
+understanding this structure and how it facilitates system behavior (Ossimitz, 2000; Richmond, 1994). Recognizing interconnections and understanding feedback are keys to understanding system structure. Hopper and Stave's (2008) or Plate's (2014) taxonomies do not explicitly define this concept, but it is a combination of elements of the two previous characteristics of systems thinking. (Ossimitz, 2000; Richmond, 1994).
+
+###4. Defining Stocks, Flows, Variables:
+
+Stocks refer to any pool of a resource in a system. Flows are the changes in these levels. Variables are the changeable parts of the system that affect stocks and flows, such as a flow rate or the maximum quantity of stock. The ability to differentiate these stocks, flows, and other variables and recognize how they operate is a critical Systems thinking skill.
+
+###5. Identifying and Understanding Non-Linear Relationships:
+
+This element represents a deviation from both Hopper and Stave's (2008) and Richard Plate's (2014) taxonomies,(Hopper and Stave, 2008; Plate and Monroe, 2014). This element refers to stocks and flows of a non-linear nature.
+
+###6. Understanding Dynamic Behavior:
+
+Interconnections, the way they combine into feedback loops, and the way these feedback loops influence and consist of stocks, flows, and variables create dynamic behavior within a system. This behavior is difficult to grasp or understand without systems training(Plate and Monroe, 2014). Emergent behavior, a term used to describe unanticipated system behavior, is one example of dynamic behavior. Differentiating types of stocks flows, and variables, as well as identifying and understanding non-linear relationships, are both keys to understanding dynamic behavior.
+
+###7. Reducing Complexity by Modeling Systems Conceptually:
+
+This element represents a deviation from both Hopper and Stave's (2008) and Richard Plate's (2014) taxonomies,(Hopper and Stave, 2008; Plate and Monroe, 2014). Although it sounds similar to Hopper and Stave's Using Conceptual Models, this element is different. This element is the ability to conceptually model different parts of a system and view a system in different ways. Research shows that perceptual wholes can reduce the conscious accessibility of their parts (Poljac, De-Wit, and Wagemans, 2012). Theoretically, it allows the interpretation of higher complexity as the mind holds less detail about each whole. This skill is the ability to look at a system in different ways that strip out excess and reduce complexity.
+
+###8. Understanding Systems at Different Scales:
+
+This skill is similar to Barry Richmond's forest thinking(Plate & Monroe, 2014). It involves the ability to recognize different scales of systems and systems of systems.
+
+###9-Systems Thinking with data
+
+We agree mainly with all the previous given views portrayed to systems thinking. However, we need data to take a central piece to enforce the structure of systems thinking. Almost all authors have failed to tackle this part. The collection and excellent usage of data from different parts provide full structure to system thinking.
+ We perceived systems thinking as the application of systems science. Similar to other sciences, it needs to evolve with time; science has to integrate the currents knowledge and tools available in science and technology. The world is increasingly very involved in one hand; on the other hand, we have the capabilities to collect data. To understand systems, systems thinkers must incorporate data. Unlike traditional data science, the data must come from multiple sources:
+Data from the  system or sub-system of interest
+Data  from interdependent sub-systems data 
+Data from a more extensive system or sub-system where the system of interest belongs.
+
+We can summarize this concept with the picture below.
+
+![Systems Thinking With Data](dissert1.png)
+
+
+
+An example could shed light on this:
+A retailer sales forecasting
+Sub-system (retailer =macys); Macy's data
+external sub-systems data(other competitor retailers data); JC Penney, Zara data
+external sub-systems data(weather data)
+External whole-system data (retail industry data)
+forecasting sales on December 24, 2019, weather data must be integrated, no matter how sophisticated our algorithms are, we will miss projection if heavy snowfall.
+
+
+##D-Conclusion  and future work 
+
+The world is changing at the pace, not foreseen before. Complex systems and processes are hard to tackle; traditional science does not have the scope and tools to tackle those challenges efficiently.
+Systems Science is well placed to take on those challenges. However, it needs to evolve; it needs to make usage of all its capabilities to be able to solve the complexities encountered today. Data plays a central role, the quality of it and the varieties of it can decide the accuracy of the predictions. However, the ability to collect external data is the greatest challenge. Companies and decision-makers have to rely on sampling — the most extensive and more accurate the samples, the better the inferences.
+Competitive advantage could be gained by leveraging the data sources, adding a proper preprocessing of the data, and using sophisticated modeling tools.
+Systems thinkers and academics can benefit significantly by integrating this concept of systems science with the usage of data into their strategies.
+In the next chapter, we talk about Machine Learning, which we perceived as a subfield of systems science. The other chapters will cover ways to mitigate the complexities around machine learning systems.
+We will detail how, by using systems thinking, practitioners, and researchers can avoid or reduce problems arisen in those systems.
+
+
+#References:
+
+1. Benson, H., Borysenko, J., Comfort, A., Dossey, L., & Siegel, B. (1985). Economics, Work, and Human Values: New Philosophies of Productivity. The Journal of Consciousness and Change, 7(2), 198.
+
+2. Dominici, G. (2012). Why Does Systems Thinking Matter? Business Systems Review, 1(1), 1–2. doi:10.7350/bsr.a02.2012
+
+3. Hopper, M., & Stave, K. A. (2008). Assessing the Effectiveness of Systems Thinking Interventions in the Classroom. In The 26th International
+Conference of the System Dynamics Society (pp. 1–26). Athens, Greece.
+
+4. Kopainsky, B., Alessi, S. M., & Davidsen, P. I. (2011). Measuring Knowledge Acquisition in Dynamic Decision Making Tasks. In The 29th
+International Conference of the System Dynamics Society (pp. 1–31). Washington, DC.
+
+5. Meadows, D. H. (2008). Thinking in Systems: A Primer. White River Junction, VT: Chelsea Green Publishing.
+
+6. Ossimitz, G. (2000). Teaching System Dynamics and Systems Thinking in Austria and Germany. In The 18th International Conference of the
+System Dynamics Society (pp. 1–17). Bergen, Norway.
+
+7. Plate, R. (2010). Assessing individuals' understanding of non-linear causal structures in complex systems. System Dynamics Review, 26(1), 19–
+33. doi:10.1002/sdr.432
+
+8. Plate, R., & Monroe, M. (2014). A Structure for Assessing Systems Thinking. In The 2014 Creative Learning Exchange.
+
+9. Poljac, E., De-Wit, L., & Wagemans, J. (2012). Perceptual wholes can reduce the conscious accessibility of their parts. Cognition, 123(2), 308–
+12. doi:10.1016/j.cognition.2012.01.001
+
+10. Richmond, B. (1994). Systems Dynamics/Systems Thinking: Let's Just Get On With It. In International Systems Dynamics Conference.
+Sterling, Scotland.
+
+11. Senge, P. (1990). The Fifth Discipline, the Art and Practice of the Learning Organization. New York, NY: Doubleday/Currency.
+
+12. Squires, A., Wade, J., Dominick, P., & Gelosh, D. (2011). Building a Competency Taxonomy to Guide Experience Acceleration of Lead
+Program Systems Engineers. In 9th Annual Conference on Systems Engineering Research (CSER) (pp. 1–10). Redondo Beach, CA.
+
+13. Stave, K. A., & Hopper, M. (2007). What Constitutes Systems Thinking? A Proposed Taxonomy. In 25th International Conference of the
+System Dynamics Society. Boston, MA.
+
+14. Sterman, J. D. (2003). System Dynamics: Systems Thinking and Modeling for a Complex World. In ESD International Symposium.
+
+15. Sweeney, L. B., & Sterman, J. D. (2000). Bathtub dynamics: initial results of a systems thinking inventory. System Dynamics Review, 16(4),
+249–286. doi:10.1002/sdr.198
+
+16. Wade, J. (2011). Systems Engineering: At the Crossroads of Complexity. In Kongsberg Systems Engineering Event.
+
+17. Ross D. Arnold, and Jon P. Wade(2015).A Definition of Systems Thinking: A Systems Approach, Procedia Computer Science 44 (2015) 669 – 678.
+
+
+
+
+
+
